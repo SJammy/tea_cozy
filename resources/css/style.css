@@ -25,6 +25,7 @@ header {
 	align-items: center;
 	position: fixed;
 	top: 0px;
+	z-index: 10;
 }
 
 .header_nav {
@@ -36,6 +37,7 @@ header {
 
 .header_nav li {
 	padding: 10px;
+	text-decoration: underline;
 }
 
 .main_box {
@@ -70,10 +72,15 @@ header {
 	justify-content: center;
 }
 
-.tea_img > img{
+.tea_img > img {
 	height: 200px;
 	width: 300px;
-	padding: 10px;
+	padding: 0px 10px;
+}
+
+.tea_img h3 {
+	padding: 0px;
+	top: 0px;
 }
 
 .locations_mainbox {
@@ -87,12 +94,19 @@ header {
 
 .locations_group div {
 	width: 300px;
-	margin: 15px 20px;
+	margin: 15px 40px;
 	opacity: 1;
 	background-color: black;
 	display: inline-block;
 }
 
-.locations_group {
-
+.footer_contact {
+	height: 200px;
 }
+
+.copyright {
+	text-align: left;
+	margin: 20px;
+}
+
+
